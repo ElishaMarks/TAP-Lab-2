@@ -47,6 +47,7 @@ class coolDog extends Dog{
         super(race,age);
         System.out.println("parametru coolDog");
         this.categorie=cat;
+
     }
 
     public void afisare() {
@@ -65,6 +66,7 @@ class coolDog extends Dog{
         sc.close();
 
     }
+
 }
 
 
